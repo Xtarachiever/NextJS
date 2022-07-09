@@ -1,6 +1,6 @@
 /* Layout */
 .layout_nav{
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 .wrapper{
     min-height: 100vh;
@@ -40,7 +40,7 @@
 
 /* Users Page */
 .user_page{
-    margin: 20px 50px;
+    margin: auto 50px;
     position: relative;
 }
 .userlists{
@@ -67,4 +67,14 @@
 }
 .error_details{
     text-align: center;
+}
+
+/* Each Users */
+.eachUser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anime_images{
+    margin-right: 40px;
 }

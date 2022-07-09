@@ -15,7 +15,7 @@ const Users = ({users}) => {
             <h2>Users</h2>
             {
                 users.map(user=>(
-                    <Link href="/users/id" key={user.id}><a className={styles.userlists}>{user.name}</a></Link>
+                    <Link href={"/users/" + user.id} key={user.id}><a className={styles.userlists}>{user.name}</a></Link>
                 ))
             }
         </div>
