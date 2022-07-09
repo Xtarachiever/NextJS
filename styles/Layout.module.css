@@ -1,6 +1,12 @@
 /* Layout */
 .layout_nav{
-    margin-bottom: 80px;
+    margin-bottom: 50px;
+}
+.wrapper{
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 .nav{
     background-color: #f5f7ff;
@@ -23,12 +29,13 @@
     justify-content: space-evenly;
     align-items: center;
 }
+/* Footer */
 .footer{
     background-color: #f5f7ff;
-    padding:30px;
-    /* position: relative;
-    bottom: 0; */
+    padding:15px;
+    margin-top: auto;
     width: 100%;
+    z-index: 10;
 }
 
 /* Users Page */
@@ -44,4 +51,20 @@
     display: flex;
     flex-direction: column;
     margin-top:30px;
+}
+
+/* 404 Page */
+.error{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 80vh;
+}
+.error_button{
+    padding: 20px;
+    border: none;
+    background-color: #f5f7ff;
+}
+.error_details{
+    text-align: center;
 }
