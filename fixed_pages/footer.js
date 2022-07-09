@@ -1,8 +1,12 @@
+import Link from 'next/link';
 import styles from '../styles/Layout.module.css';
 const Footer = () =>{
     return(
         <div className={styles.footer}>
-            <p>Copyright 2022</p>
+            <div className={styles.footer_content}>
+              <p>&copy; Copyright 2022</p>
+              <p>Developed By <Link href="https://github.com/Xtarachiever"><a>Xtarachiever</a></Link></p>
+            </div>
         </div>
     )
 }

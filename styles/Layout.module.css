@@ -37,6 +37,12 @@
     width: 100%;
     z-index: 10;
 }
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    
+    margin: auto 30px;
+}
 
 /* Users Page */
 .user_page{
