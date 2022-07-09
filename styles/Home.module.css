@@ -2,6 +2,7 @@
   display: flex;
   width: 100%;
   justify-content: center;
+  min-height: 100vh;
 }
 .section{
   width: 80%;
@@ -27,7 +28,7 @@
   margin-right: 10px;
   cursor: pointer;
   border: none;
-  /* border: 1px solid #3a3d4f; */
+  background-color: #f5f7ff;
 }
 .button:hover{
   box-shadow: 0 2px 2px #1e2029;
