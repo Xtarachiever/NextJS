@@ -1,4 +1,4 @@
-import styles from '../../styles/Layout.module.css';
+import styles from '../styles/Layout.module.css';
 const Footer = () =>{
     return(
         <div className={styles.footer}>
