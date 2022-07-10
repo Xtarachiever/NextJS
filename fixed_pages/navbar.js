@@ -9,13 +9,13 @@ const Navbar = () =>{
     return(
         <nav className={`${styles.nav}`}>
             <div className={styles.container}>
-              <div className="flex flex-col">
+              <div className="flex flex-col items-start sm:flex-row sm:flex-grow sm:items-center">
                 <Link href="/"><a>Collections</a></Link>
-                    <div className={`${active ? '' : 'hidden'} w-full lg:inline-flex lg:w-auto lg:flex-grow `}>
-                      <div className='lg:ml-auto lg:inline-flex lg:w-auto w-full flex flex-col items-start'>
-                        <Link href="/users"><a className='w-full pt-2'>Explore Users</a></Link>
-                        <Link href="/about"><a className='w-full pt-2'>About</a></Link>
-                        <Link href="/contact"><a className='w-full py-2'>Contact Us</a></Link>
+                    <div className={`${active ? '' : 'hidden'} w-full sm:inline-flex sm:w-auto sm:flex-grow `}>
+                      <div className='sm:ml-auto sm:inline-flex sm:w-auto sm:flex-row w-full flex flex-col items-start'>
+                        <Link href="/users"><a className='w-full pt-2 sm:px-3 sm:w-auto sm:inline-flex'>Explore Users</a></Link>
+                        <Link href="/about"><a className='w-full pt-2 sm:px-3 sm:w-auto sm:inline-flex'>About</a></Link>
+                        <Link href="/contact"><a className='w-full py-2 sm:px-3 sm:w-auto sm:inline-flex'>Contact Us</a></Link>
                       </div>
                     </div>
               </div>
