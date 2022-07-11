@@ -5,7 +5,7 @@ const Footer = () =>{
         <div className={styles.footer}>
             <div className={styles.footer_content}>
               <p>&copy; Copyright 2022</p>
-              <p>Developed By <Link href="https://github.com/Xtarachiever"><a>Xtarachiever</a></Link></p>
+              <p className="text-center">Developed By <Link href="https://github.com/Xtarachiever"><a>Xtarachiever</a></Link></p>
             </div>
         </div>
     )

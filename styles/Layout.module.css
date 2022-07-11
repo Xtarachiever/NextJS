@@ -1,7 +1,4 @@
 /* Layout */
-.layout_nav{
-    margin-bottom: 70px;
-}
 .wrapper{
     min-height: 100vh;
     position: relative;
@@ -21,7 +18,7 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    align-items: start;
+    align-items: flex-start;
 }
 /* Footer */
 .footer{
@@ -34,13 +31,13 @@
 .footer_content{
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
     margin: auto 30px;
 }
 
 /* Users Page */
 .user_page{
-    margin: auto 50px;
+    margin: 20px 50px;
     position: relative;
 }
 .userlists{
@@ -86,5 +83,14 @@
         width: 50%;
         justify-content: space-evenly;
         align-items: center;
+    }
+}
+@media screen and (max-width:460px){
+    .footer_content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
     }
 }
