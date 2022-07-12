@@ -30,7 +30,7 @@ const Users = ({users}) => {
             <h2>Users</h2>
             {
                 users.map(user=>(
-                    <Link href={"/users/" + user.id} key={user.id}><a className={styles.userlists}>{user.name}</a></Link>
+                    <Link href={"/users/" + user.id} key={user.id}><a className={`dark:bg-slate-800 ${styles.userlists}`}>{user.name}</a></Link>
                 ))
             }
         </div>

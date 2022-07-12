@@ -29,8 +29,8 @@ export const getStaticProps = async(context)=>{
 const UserId = ({user}) => {
     return (
         <div className={styles.eachUser}>
-            <div className={styles.anime_images}>
-                <Image src="/anime.jpeg" width={200} height={200}/>
+            <div className={`dark:border-4 dark:border-black-500 ${styles.anime_images}`}>
+                <Image src="/anime.jpeg" width={200} height={200} />
             </div>
             <div>
                <h3>Username: {user.username}</h3>
