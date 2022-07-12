@@ -8,7 +8,7 @@ const Error = () => {
                 <h2>Oooops</h2>
                 <h2>SOMETHING WENT WRONG</h2>
                 <h4>Error 404: Page Not Found</h4>
-                <Link href="/"><a><button className={styles.error_button}>Go back to HomePage</button></a></Link>
+                <Link href="/"><a><button className={`dark:bg-slate-800 ${styles.error_button}`}>Go back to HomePage</button></a></Link>
             </div>
             <div>
                 <Image src="/error.jpeg" width={250} height={250}/>

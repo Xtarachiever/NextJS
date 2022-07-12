@@ -9,8 +9,8 @@ export default function Home() {
           <h1 className='text-center sm:text-left'>We have the best collection of unique anime movies</h1>
           <p className='text-center sm:text-left'>There are various animes in this site to select from. This site shows the lists of user that watches anime and are officially a user.</p>
           <div className={`flex flex-col mb-3 ${styles.button_wrapper}`}>
-            <button type='button' className={` ${styles.button}`}>Lets Explore</button>
-            <button type='button' className={`${styles.button}`}>Anime Images</button>
+            <button type='button' className={`dark:bg-slate-800 ${styles.button}`}>Lets Explore</button>
+            <button type='button' className={`dark:bg-slate-800 ${styles.button}`}>Anime Images</button>
           </div>
         </div>
         <div className={styles.image_wrapper}>
